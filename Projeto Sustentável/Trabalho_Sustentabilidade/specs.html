@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de Onibus</title>
+    <link rel="stylesheet"  href="_css/estilo.css"/>
+    <link rel="stylesheet" href="_css/specs.css">
+</head>
+<script src= "_javascript/funcoes.js"></script>
+<body>
+<div id="interface"> 
+    <header id="cabecalho">
+    <hgroup>
+    <h1>Projeto Mobilidade Sustentavel</h1>
+    <h2>A revolução do transporte está chegando</h2>
+    </hgroup>
+
+    <img id="icone" src="_imagens/Onibus-pqn.png"/>
+    <nav id="menu">
+    <h1>Menu Principal</h1>
+    <ul type="disc">
+        <li onmouseover = "mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html"> Home</a></li>
+        <li onmouseover = "mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html"></a><a href="specs.html"> Especificações</a></li>
+        <li onmouseover = "mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html"></a><a href="fotos.html"> Fotos</a></li>
+        <li onmouseover = "mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/especificacoes.png')"><a href="index.html"></a><a href="fale-conosco.html"> Fale conosco </a></li>
+    </ul>
+    </nav>
+    </header>
+<section id="corpo-full">
+    <article id="noticia-principal">
+        <header id="cabecalho-artigo">
+            <hgroup>
+                <h3> e-Bus 12,1m > Especificações</h3>
+                <h1>Raio-X no  e-Bus 12,1m</h1>
+                <h3 class="direita">Atualizado em 20/Maio/2024</h3>
+            </hgroup>
+        </header>
+        <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
+        <section id="conteudo">
+            <img src="_imagens/projeto-onibus.png.png" usemap="#meumapa"/>
+            <map name="meumapa">
+                <area shape="circle" coords="160,165,25" href="mobilidade-urbana.html#motor-eletrico" target="janela"/>
+                <area shape="circle" coords="250,60,50" href="mobilidade-urbana.html#baterias" target="janela"/>
+                <area shape="circle" coords="85,170,20" href="mobilidade-urbana.html#motor-gerador" target="janela"/>
+            </map>
+            <iframe src="mobilidade-urbana.html" name="janela" id="frame-spec"></iframe>
+        </section>
+
+    </article>
+</section>
+<footer id="rodape">
+    <p>Copyright 2024 - by Luiz and Gustavo<br>
+    <a id="facebook" href="http://facebook.com" target="_blank">Facebook</a> | 
+    <a id="instagram" href="http://Instagram.com" target="_blank">Instagram</a></p>
+    </footer>
+    </div>
+    </body>
+    </html>
