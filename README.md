@@ -1,5 +1,5 @@
 # Projeto Sustentável: A Revolução dos Automóveis Elétricos
-> Objetivo do projeto: <strong> Solucionar um problema ambiental com um projeto tecnológico. <i>Python</i></strong>
+> Objetivo do projeto: <strong> Solucionar um problema ambiental com um projeto tecnológico.</strong>
 <br>
 
 ~~~php
